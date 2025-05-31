@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <title>Library Book Search Bot</title>
+</head>
+<body>
+    <h1>Library Book Search Bot</h1>
+    <form method="POST">
+        <input type="text" name="query" placeholder="Enter book title or author" required>
+        <button type="submit">Search</button>
+    </form>
+    <hr>
+    {% if results %}
+        <h2>Matching Books:</h2>
+        <ul>
+            {% for book in results %}
+                <li>{{ book.Title }} by {{ book.Author }} - Available: {{ book.Available }}</li>
+            {% endfor %}
+        </ul>
+    {% elif results is not none %}
+        <p>No matching books found.</p>
+    {% endif %}
+</body>
+</html>
