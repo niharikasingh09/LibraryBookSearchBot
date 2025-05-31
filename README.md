@@ -1,4 +1,5 @@
 
+"# Library Book Search Bot" 
 # 📚 Library Book Search Bot
 
 A simple chatbot and web app that helps users search for books by title, author, or genre.
@@ -21,9 +22,7 @@ A simple chatbot and web app that helps users search for books by title, author,
 ### CLI Version:
 ```bash
 python app.py 
-
-### GUI Version (Tkinter)
-bash
-Copy
-Edit
+##🖼️ GUI Desktop Version (Tkinter):
+### CLI Version
+'''bash
 python app_gui.py
