@@ -21,3 +21,9 @@ A simple chatbot and web app that helps users search for books by title, author,
 ### CLI Version:
 ```bash
 python app.py 
+
+### GUI Version (Tkinter)
+bash
+Copy
+Edit
+python app_gui.py
