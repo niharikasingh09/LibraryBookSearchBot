@@ -1,4 +1,4 @@
-# 📚 Library Book Search Bot
+﻿# 📚 Library Book Search Bot
 
 A simple chatbot and web app that helps users search for books by title, author, or genre.
 
